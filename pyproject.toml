@@ -13,7 +13,7 @@ nonebot2 = "^2.0.0-beta.1"
 nb-cli = "^0.6.0"
 
 [tool.nonebot]
-plugins = ["nonebot_plugin_alipayvoice", "nonebot_plugin_hitokoto", "nonebot_plugin_answersbook", "nonebot_plugin_rtfm"]
+plugins = ["nonebot_plugin_alipayvoice", "nonebot_plugin_hitokoto", "nonebot_plugin_answersbook", "nonebot_plugin_rtfm", "haruka_bot", "nonebot_plugin_boardgame", "nonebot_plugin_baidutranslate", "nonebot_plugin_caiyunai", "nonebot_plugin_covid19_news", "nonebot_plugin_admin"]
 plugin_dirs = ["src/plugins"]
 
 [build-system]

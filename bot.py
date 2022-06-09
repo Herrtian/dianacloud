@@ -21,19 +21,11 @@ driver = nonebot.get_driver()
 driver.register_adapter(ONEBOT_V11Adapter)
 
 nonebot.load_builtin_plugins("echo")
-# nonebot.load_builtin_plugins("nonebot_plugin_heisi")
-# nonebot.load_plugin("nonebot_plugin_test")
-# Please DO NOT modify this file unless you know what you are doing!
-# As an alternative, you should use command `nb` or modify `pyproject.toml` to load plugins
 nonebot.load_from_toml("pyproject.toml")
-nonebot.load_plugin("nonebot_plugin_everyday_en")
-
-# nonebot.load_plugin('nonebot_plugin_alipayvoice')
-
-# Modify some config / config depends on loaded configs
-# 
-# config = driver.config
-# do something...
+# nonebot.load_plugin("nonebot_plugin_everyday_en")
+nonebot.load_plugin("nonebot_plugin_code")
+nonebot.load_plugin('nonebot_plugin_weather_lite')
+# nonebot.load_plugin('nonebot_plugin_translator')
 
 
 if __name__ == "__main__":
